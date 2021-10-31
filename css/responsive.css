@@ -29,6 +29,7 @@
     .container{
         flex-direction: column;
         align-items: center;
+        margin: 0 auto;
     }
     .test{
         flex-direction: row;
@@ -36,10 +37,18 @@
     }
     .about{
         margin-bottom: 20px;
+        align-items: center;
+        text-align: center;
 
     }
     .privacy{
         margin-bottom: 20px;
+    }
+    .links{
+        text-align: center;
+    }
+    .privacy{
+        text-align: center;
     }
     
 }
@@ -119,6 +128,9 @@
         height: 250px;
         margin-bottom: 20px;
     }
+    .container{
+        margin: 0 auto;
+    }
 }
 @media(max-width:350px){
     .form-wrapper input{
@@ -161,5 +173,8 @@
         max-width: 350px;
         width: 100%;
 
+    }
+    .about{
+        font-size: 9px;
     }
 }
