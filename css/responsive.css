@@ -1,3 +1,22 @@
+@media (max-width:1170px){
+    .title-container{
+        margin-left: 30px;
+    }
+}
+@media (max-width:1070px){
+    .image-container{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .image-container img{
+        margin-bottom: 20px;
+    }
+    .title-container{
+        margin: 0 auto;
+        text-align: center;
+    }
+}
 @media(max-width:750px){
     .contact-wrapper{
         margin: 0 auto;
@@ -7,6 +26,22 @@
         max-width: 400px;
         width: 100%;
     }
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .test{
+        flex-direction: row;
+        margin-bottom: 20px;
+    }
+    .about{
+        margin-bottom: 20px;
+
+    }
+    .privacy{
+        margin-bottom: 20px;
+    }
+    
 }
 @media(max-width:550px){
     .form-container{
@@ -25,10 +60,29 @@
         margin-top: 15px;
     }
     .textarea-container{
-        margin-left: 0px;
+        display: none;
+    }
+    .textarea-container1{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
     }
     .card-container{
         margin-bottom: 15px;
+    }
+    .header-wrapper{
+        text-align: center;   
+    }
+}
+@media (max-width:484px){
+    .title-container h2{
+        font-size: 25px;
+    }
+}
+@media(max-width:463px){
+    .title-container{
+        max-width: 200px;
+        width: 100%;
     }
 }
 @media(max-width:420px){
@@ -55,6 +109,17 @@
         margin: 0 auto;
     }
 }
+@media (max-width:362px){
+    .contact-wrapper{
+        margin: 0 auto;
+    }
+    .image-container img{
+        max-width: 250px;
+        width: 100%;
+        height: 250px;
+        margin-bottom: 20px;
+    }
+}
 @media(max-width:350px){
     .form-wrapper input{
         margin: 0 auto;
@@ -66,8 +131,16 @@
     .button{
         margin-bottom: 10px;
     }
+    .form-container{
+        padding-left: 0;
+        margin: 0 auto;
+    }
 }
 @media(max-width:280px){
+    .form-container{
+        padding-left: 0;
+        margin: 0 auto;
+    }
     .form-wrapper input{
         margin: 0 auto;
         margin-bottom: 16px;
@@ -77,5 +150,16 @@
     }
     .button{
         margin-bottom: 10px;
+    }
+    .header{
+        padding-left: 0;
+    }
+    .contact-wrapper{
+        width: 230px;
+    }
+    .title-container{
+        max-width: 350px;
+        width: 100%;
+
     }
 }
