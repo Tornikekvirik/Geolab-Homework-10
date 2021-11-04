@@ -186,6 +186,7 @@
     margin: 0 auto;
     background-color: black;
     margin-top: 5px;
+    padding-bottom: 50px;
 }
 .container{
     display: flex;
@@ -285,15 +286,16 @@
     margin-bottom: 21px;
 }
 .contact h5::before{
-    content: "\f0e0";
+    content: url(../image/mail.png);
     margin-right: 5px;
 }
 .contact h4::before{
-    content: "\f879";
+    content:url(../image/phone.png);
     margin-right: 5px;
+    
 }
 .contact h2:before{
-    content:"\f3c5";
+    content:url(../image/pin.png);
     margin-right: 5px;
 }
 .test{
@@ -302,6 +304,5 @@
     display: flex;
     justify-content: space-between;
 }
-
 
 /* Footer end */
